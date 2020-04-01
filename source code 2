@@ -1,0 +1,5 @@
+from profanity_hk import predict,predict_prob
+a=predict(["stupid"])
+print("amount of badwords in a string",a)
+b=predict_prob(["stupid"])
+print("percentage of badness in the string",b)
